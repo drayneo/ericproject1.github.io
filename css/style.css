@@ -16,22 +16,22 @@
 }
 
 .bgimg-1 {
-    background-image: url("/img/Paris.JPG");
+    background-image: url("/Paris.JPG");
     min-height: 400px;
 }
   
 .bgimg-2 {
-    background-image: url("/img/japan1.JPG");
+    background-image: url("/japan3.JPG");
     min-height: 400px;
 }
   
 .bgimg-3 {
-    background-image: url("/img/japan2.JPG");
+    background-image: url("/japan2.JPG");
     min-height: 400px;
 }
 
 .bgimg-4 {
-    background-image: url("/img/japan3.JPG");
+    background-image: url("/japan1.JPG");
     min-height: 500px;
     opacity: 1;
 }
