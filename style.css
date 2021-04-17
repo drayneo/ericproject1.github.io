@@ -1,0 +1,118 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#ddd;
+    background-color:#282E34;
+    position: relative;
+    margin: auto;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("paris.jpg");
+    min-height: 400px;
+}
+  
+.bgimg-2 {
+    background-image: url("japan3.jpg");
+    min-height: 400px;
+}
+  
+.bgimg-3 {
+    background-image: url("japan2.jpg");
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url("japan1.jpg");
+    min-height: 500px;
+    opacity: 1;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    border-spacing: 3px;
+    padding: 3px;
+}
+
+tr:nth-child(2n+3) {
+    background-color: rgb(80, 79, 92);
+}
+
+.firstrow {
+    background-color: rgb(129, 123, 138);
+}
+
+.intro
+{
+    margin: auto;
+    display: grid;
+    grid-template: 
+    'header header header header header header header'
+    'title title title title portrait portrait portrait';
+    align-content: center;
+    height: 400px;
+    width: 800px;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.portrait {
+    
+    grid-area: portrait;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 10px;
+    grid-area: header;
+}
+
+.books {
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.haiku {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.interests {
+    margin: auto;
+    width: 700px;
+}
+
+.schedule {
+    margin: auto;
+    width: 400px;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    color:#ddd;
+    background-color: rgb(80, 79, 92);
+    text-align: center;
+}
